@@ -1,0 +1,111 @@
+body {
+  background-color: none;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  word-spacing: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  color: green;
+}
+
+h3 {
+  color: blue;
+}
+
+li {
+  line-height: 25px;
+}
+
+#headpage {
+  text-align: none;
+}
+
+#pozaprofil {
+  width: 140px;
+  height: 140px;
+  align-items: none;
+}
+
+#prenume {
+  text-shadow: 1px 1px black;
+  color: blue;
+}
+
+#nume {
+  color: rgb(113, 0, 128);
+}
+
+div p {
+  padding: 0px, 0px, 0px, 20px;
+}
+
+.clasadiv {
+  padding: 0px 0px 0px 40px;
+}
+
+.linkcolorblue {
+  color: blue;
+}
+
+div {
+  margin: 2px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color:rgb(255, 255, 255);
+  padding: 10px;
+  gap: 10px;
+}
+
+.grid-item-div1 {
+  background-color: rgba(255, 255, 0, 0);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.grid-item-1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.grid-item-div2 {
+  background-color: rgba(255, 255, 0, 0);
+  padding: 20px; 
+  font-size: 20px;
+  text-align: start;
+  border-right: 1px solid black;
+}
+
+.grid-item-2 {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.grid-item-div3 {
+  background-color: rgba(255, 255, 0, 0);
+  padding: 20px;
+  font-size: 20px;
+  text-align: start;
+}
+
+.grid-item-3 {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+

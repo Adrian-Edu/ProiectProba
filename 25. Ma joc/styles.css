@@ -1,0 +1,18 @@
+h1 {
+    background-color: aqua;
+    text-align: center;
+    border-bottom: 1px solid red;
+}
+
+.mainsplitscreen {
+    display: flex;
+}
+
+.mainsplitscreen1 {
+    width: 20%;
+    border-right: 1px solid blueviolet;
+}
+
+.mainsplitscreen2 {
+    width: 80% 1px solid black;
+}

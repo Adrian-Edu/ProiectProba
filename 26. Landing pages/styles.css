@@ -1,0 +1,52 @@
+.nav {
+    height: 80px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-center {
+    justify-content: center;
+    align-items: center;
+
+}
+
+content-container {
+    max-width: 1120px;
+}
+
+#app-image {
+    height: 40px;
+    margin-right: 16px;
+}
+
+.app-logo-container {
+
+}
+
+.app-title {
+font-family: Poppins, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 28px;
+color: #173A56;
+}
+
+.nav-bar-wrapper {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-links-container > a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color:#22343D;
+  margin: 0px 20px;
+}

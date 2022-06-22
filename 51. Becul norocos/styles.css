@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.father-container {
+    width: 2000px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 700px;
+    width: 500px;
+    border: 50px solid rgb(0, 255, 225);
+}
+
+div img {
+    height: 350px;
+    width: 350px;
+    margin: 25px;
+}
+
+div.switch {
+    height: 80px;
+    width: 150px;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+}
+
+.inside-switch{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    border-radius: 20%;
+    position: absolute;
+    right: 0;
+}

@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  margin: 10px;
+  display: inline-block;
+}
+
+#block1 {
+  display: inline-block;
+}
+
+#block2 {
+  background-color: black;
+  visibility: hidden;
+}
+
+#block3 {
+  background-color: rgb(0, 173, 216);
+}

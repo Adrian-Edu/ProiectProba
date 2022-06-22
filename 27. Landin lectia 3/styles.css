@@ -1,0 +1,100 @@
+.nav {
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-center {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-container {
+    max-width: 1120px;
+}
+
+#app-image {
+    height: 40px;
+    margin-right: 16px;
+}
+
+.app-logo-container {
+
+}
+
+.app-title {
+font-family: Poppins, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 28px;
+color: #173A56;
+}
+
+.nav-bar-wrapper {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-links-container > a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color:#22343D;
+  margin: 0px 20px;
+}
+
+.primary-button {
+    background-color:#02897A;
+    border-radius: 4px;
+    height: 43px;
+    font-family: Poppins;
+    font-style:normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    padding: 0px 25px;
+}
+
+.button-outlined {
+    background-color:#FFFFFF;
+    color: #173A56;
+    border: 1px solid #BCD0E5;
+}
+
+.buttons-nav {
+    margin: 0px 12px;
+}
+
+.switch-theme-button {
+    background-color: #F3F3F3;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#switch-theme-icon {
+    height: 40px;
+    width: 40px;
+}
+
+.nav-bar-buttons-container {
+    justify-content: flex-end;
+}

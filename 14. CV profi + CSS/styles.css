@@ -1,0 +1,121 @@
+body {
+  background-color: none;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  word-spacing: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(2, 119, 27);
+}
+
+h3 {
+  color: blue;
+}
+
+li {
+  line-height: 25px;
+}
+
+#headpage {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+#pozaprofil {
+  width: 150px;
+  height: 150px;
+}
+
+#prenume {
+  text-shadow: 1px 1px black;
+  display: block;
+  color: blue;
+}
+
+#nume {
+  color: green;
+}
+
+div p {
+  padding: 0px, 0px, 0px, 20px;
+}
+
+.clasadiv {
+  padding: 0px 0px 0px 40px;
+}
+
+.linkcolorblue {
+  color: blue;
+}
+
+div {
+  margin: 2px;
+  body {
+    background-color: none;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    word-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    color: rgb(2, 119, 27);
+  }
+  
+  h3 {
+    color: blue;
+  }
+  
+  li {
+    line-height: 25px;
+  }
+  
+  #headpage {
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+  
+  #pozaprofil {
+    width: 150px;
+    height: 150px;
+  }
+  
+  #prenume {
+    text-shadow: 1px 1px black;
+    display: block;
+    color: blue;
+  }
+  
+  #nume {
+    color: green;
+  }
+  
+  div p {
+    padding: 0px, 0px, 0px, 20px;
+  }
+  
+  .clasadiv {
+    padding: 0px 0px 0px 40px;
+  }
+  
+  .linkcolorblue {
+    color: blue;
+  }
+  
+  div {
+    margin: 2px;
+  }
